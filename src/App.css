@@ -1,0 +1,103 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #213; 
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: white;
+  text-shadow: 0 1px 0 #000; /* Efek bayangan teks */
+}
+
+.profile-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.icon {
+  color: white;
+  width: 24px; 
+  height: 24px; 
+  vertical-align: middle;
+  margin-left: 8px; 
+  text-shadow: 0 1px 0 #ff1ca0;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.link-button {
+  display: block;
+  width: calc(70% - 20px); /* Lebar penuh dikurangi padding kecil */
+  margin: 10px auto;
+  padding: 16px 24px; /* Padding lebih besar untuk tombol yang lebih lebar */
+  background-color: #f03;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+  font-weight: bold;
+  max-width: 600px; /* Lebar maksimum tombol */
+}
+
+.link-button:hover {
+  background-color: #f03;
+  transform: translateY(-2px); /* Efek hover */
+}
+
+/* Responsivitas untuk perangkat mobile */
+@media (max-width: 600px) {
+  .profile-image {
+    width: 100px;
+    height: 100px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+  
+  h2 {
+    font-size: 10px;
+  }
+
+  .link-button {
+    padding: 14px 20px; /* Padding sedikit lebih kecil untuk mobile */
+  }
+}
+
+/* Responsivitas untuk layar yang lebih besar */
+@media (min-width: 1024px) {
+  .profile-image {
+    width: 150px;
+    height: 150px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  .link-button {
+    padding: 18px 28px; /* Padding lebih besar untuk layar besar */
+    font-size: 18px;
+  }
+}
+
+.logo{
+  width: 14px;
+  height: 15px;
+}

@@ -1,0 +1,47 @@
+.profile-image-container {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  width: 200px; /* Sesuaikan sesuai kebutuhan */
+  height: 200px; /* Sesuaikan sesuai kebutuhan */
+  border: solid 5px transparent;
+  border-radius: 50%;
+  --border-angle: 0turn; /* Untuk animasi */
+  --main-bg: conic-gradient(
+    from var(--border-angle),
+    #ffed19,
+    #59ff05 5%,
+    #f03 60%,
+    #ffed19 95%
+  );
+  --gradient-border: conic-gradient(from var(--border-angle), transparent 25%, #cd0038 65%, #f400b5, #f03 99%, transparent);
+
+  background: 
+    var(--main-bg) padding-box,
+    var(--gradient-border) border-box,
+    var(--main-bg) border-box;
+
+  animation: bg-spin 3s linear infinite;
+}
+
+.profile-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+@keyframes bg-spin {
+  to {
+    --border-angle: 1turn;
+  }
+}
+
+.profile-image-container:hover {
+  animation-play-state: paused;
+}
+
+@property --border-angle {
+  syntax: "<angle>";
+  inherits: true;
+  initial-value: 0turn;
+}
