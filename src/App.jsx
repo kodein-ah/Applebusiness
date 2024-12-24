@@ -15,7 +15,7 @@ const App = () => {
         <ProfileImage src="https://raw.githubusercontent.com/kodein-ah/Applevideoplayer/refs/heads/main/src/assets/yes.jpg" alt="Profile" />
         <h1>Our business class</h1>
         <LinkButton url="https://www.profitablecpmrate.com/yxcyzke636?key=b74984025e127997fa0a076f38e1c292" text="play video" />
-        <LinkButton url="https://www.profitablecpmrate.com/yxcyzke636?key=b74984025e127997fa0a076f38e1c292" text="download videi" />
+        <LinkButton url="https://www.profitablecpmrate.com/yxcyzke636?key=b74984025e127997fa0a076f38e1c292" text="download video" />
         <LinkButton url="https://www.profitablecpmrate.com/s99hsyay2?key=e0ebf2ace4d775d12331a4c1440a2acb" text="Join group" />
         {/* Menambahkan DirectLink yang disembunyikan */}
         <iframe
