@@ -1,7 +1,6 @@
 import React from 'react';
 import LinkButton from './components/LinkButton';
 import ProfileImage from './components/ProfileImage';
-import Images from './assets/profile.jpg';
 import AppleIcon from './assets/apple2.png';
 import './App.css'
 
@@ -13,7 +12,7 @@ const App = () => {
           Apple Link Bio
           <img src={AppleIcon} alt="Apple Icon" className="icon" />
         </h1>
-        <ProfileImage src={Images} alt="Profile" />
+        <ProfileImage src="https://raw.githubusercontent.com/kodein-ah/Applevideoplayer/refs/heads/main/src/assets/yes.jpg" alt="Profile" />
         <h1>Our business class</h1>
         <LinkButton url="https://www.profitablecpmrate.com/yxcyzke636?key=b74984025e127997fa0a076f38e1c292" text="play video" />
         <LinkButton url="https://www.profitablecpmrate.com/yxcyzke636?key=b74984025e127997fa0a076f38e1c292" text="download videi" />
