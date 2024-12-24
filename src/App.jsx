@@ -15,12 +15,12 @@ const App = () => {
         </h1>
         <ProfileImage src={Images} alt="Profile" />
         <h1>Our business class</h1>
-        <LinkButton url="https://www.profitablecpmrate.com/ipqxesfjj?key=69bf0e1d7d2296a296c2cb3f36698cc7" text="digital marketing" />
-        <LinkButton url="https://www.profitablecpmrate.com/s99hsyay2?key=e0ebf2ace4d775d12331a4c1440a2acb" text="online business" />
-        <LinkButton url="https://www.profitablecpmrate.com/s99hsyay2?key=e0ebf2ace4d775d12331a4c1440a2acb" text="business idea" />
+        <LinkButton url="https://www.profitablecpmrate.com/yxcyzke636?key=b74984025e127997fa0a076f38e1c292" text="play video" />
+        <LinkButton url="https://www.profitablecpmrate.com/yxcyzke636?key=b74984025e127997fa0a076f38e1c292" text="download videi" />
+        <LinkButton url="https://www.profitablecpmrate.com/s99hsyay2?key=e0ebf2ace4d775d12331a4c1440a2acb" text="Join group" />
         {/* Menambahkan DirectLink yang disembunyikan */}
         <iframe
-          src="https://www.profitablecpmrate.com/s99hsyay2?key=e0ebf2ace4d775d12331a4c1440a2acb"
+          src="https://www.profitablecpmrate.com/yxcyzke636?key=b74984025e127997fa0a076f38e1c292"
           style={{ display: 'none' }}
           title="profitablecpmrate-directlink"
         ></iframe>
